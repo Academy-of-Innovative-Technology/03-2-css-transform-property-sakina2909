@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     margin: 20px;
-    background-color: lightblue;
+    background-color: rgb(120, 208, 219);
     text-align: center;
     line-height: 100px;
 }
@@ -12,6 +12,23 @@
 
 
 /* ==== CODE SOLO ==== */
+#box1 {
+    background-color: deepskyblue;
+    transform: scale(1,1);
+}
+#box2 {
+    background-color: turquoise;
+    transform: translate(90px);
+}
+
+#box3 {
+    background-color: blueviolet;
+    transform: rotate(18deg);
+}
+#box4 {
+    background-color: darkmagenta;
+    transform: skewY(20deg);
+}
 
 /* Apply FOUR CSS transforms in total to make the boxes visually distinct and interesting. You can use scale, translate, rotate, and skew or even combine them. */
 
